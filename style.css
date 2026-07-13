@@ -1,0 +1,40 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.wanted {
+    width: 80%;
+    margin: auto;
+    border: 3px solid red;
+    padding: 30px;
+    background: rgba(255,255,255,0.05);
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.stamp {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color:red;
+    font-size:40px;
+    transform: rotate(20deg);
+}
+
+.info, .stats, .quotes, .charges {
+    border:1px solid gray;
+    margin:20px;
+    padding:20px;
+}
+
+h1 {
+    color:red;
+}
